@@ -1,0 +1,94 @@
+/* Visual layer for PI review. Original typography, palette and page components are retained. */
+.hero .wrap { grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 28px; padding-block: clamp(48px,6vw,80px); }
+.hero-copy { gap: 23px; }
+.hero h1 { font-size: clamp(2.65rem,4.9vw,4.1rem); }
+.hero-scope { font-size: 1rem; line-height: 1.55; color: #dbe5f1; max-width: 40em; border-left: 2px solid var(--yellow); padding-left: 15px; }
+.hero .status { font-size: .85rem; line-height: 1.6; }
+.hero .status strong { color: var(--on-navy); display: block; margin-bottom: 4px; }
+.hero-art { margin: 0 -36px 0 -10px; position: relative; min-width: 0; }
+.hero-art img { width: 100%; height: auto; display: block; }
+.hero-art figcaption { margin: 20px 25px 0; color: #b6cbe1; font: 400 .68rem/1.5 var(--mono); text-align: center; display: flex; align-items: center; justify-content: center; gap: 9px; }
+.art-dot { width: 6px; height: 6px; background: var(--yellow); border-radius: 50%; flex-shrink: 0; box-shadow: 0 0 16px #f3cf4b66; }
+.programme-ribbon { background: #f9fbfd; border-bottom: 1px solid var(--line); }
+.programme-ribbon>.wrap { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); }
+.programme-ribbon a { text-decoration: none; color: var(--ink); display: flex; align-items: center; gap: 15px; padding: 28px 20px 28px 0; min-width: 0; }
+.programme-ribbon a>span:first-child { font: 400 1.5rem var(--display); color: var(--blue); }
+.programme-ribbon b { display: block; font-size: .98rem; font-weight: 600; }
+.programme-ribbon small { display: block; color: var(--muted); font-size: .83rem; margin-top: 4px; }
+.programme-ribbon .ribbon-arrow { margin-left: auto; color: #859cb5; font-size: 1.3rem; }
+.programme-ribbon a:hover b { text-decoration: underline; text-decoration-color: var(--yellow); text-underline-offset: 4px; }
+.clinical-section .section-head { max-width: 810px; }
+.clinical-section .section-head>.label { color: var(--blue); }
+.clinical-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 24px; }
+.clinical-grid article { border: 1px solid var(--line); border-top: 3px solid var(--navy); padding: 26px; background: #fff; }
+.clinical-icon { font: 500 .7rem var(--mono); color: var(--blue); display: block; margin-bottom: 19px; }
+.clinical-grid h3 { font-size: 1.3rem; margin-bottom: 15px; }
+.clinical-grid p { font-size: .99rem; color: var(--muted); line-height: 1.65; }
+.clinical-example { margin-top: 20px; padding-top: 17px; border-top: 1px solid var(--line); font-size: .9rem; color: var(--muted); }
+.clinical-loop { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; background: var(--navy); padding: 20px 25px; color: var(--white); margin-top: 28px; }
+.clinical-loop>span { font-size: .87rem; flex: 1; min-width: 100px; }
+.clinical-loop i { color: var(--yellow); font-style: normal; font-size: 1.2rem; }
+.clinical-loop .loop-return { font-size: 1.8rem; margin-left: 8px; }
+#why { background: #f8fafc; border-block: 1px solid var(--line); }
+.brief-kit { display: grid; grid-template-columns: minmax(0,.85fr) minmax(0,1.15fr); gap: 36px; margin-top: 38px; padding: 30px; background: var(--yellow-soft); border: 1px solid #e8db9f; }
+.brief-kit .label { color: var(--amber-ink); }
+.brief-kit h3 { font-size: 1.5rem; margin: 12px 0; }
+.brief-kit p { font-size: .95rem; color: var(--muted); }
+.brief-kit ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 14px; }
+.brief-kit li { font-size: .95rem; display: flex; gap: 13px; align-items: baseline; }
+.brief-kit li span { font: 500 .7rem var(--mono); color: var(--amber-ink); flex-shrink: 0; }
+.theme-gallery { display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); gap: 14px; margin-bottom: 44px; }
+.theme-gallery a { display: flex; flex-direction: column; text-decoration: none; color: var(--navy); border: 1px solid #d3deea; background: #fff; min-width: 0; transition: transform .2s,border-color .2s; }
+.theme-gallery img { width: 100%; height: auto; }
+.theme-gallery .label { font-size: .58rem; margin: 15px 15px 8px; }
+.theme-gallery h3 { font-size: 1.25rem; margin: 0 15px 18px; text-wrap: initial; }
+.theme-gallery .gallery-link { font-size: .74rem; color: #536d8b; margin: auto 15px 16px; }
+.theme-gallery a:hover { transform: translateY(-4px); border-color: var(--navy); }
+.theme-gallery a:hover .gallery-link { color: var(--blue); }
+.theme-head { max-width: 810px; }
+.theme-head>.label { color: var(--pink); }
+.vaccine-theme { border-left: 3px solid var(--yellow); padding-left: 25px; }
+.challenge-illustration { width: 100%; height: auto; margin-bottom: 7px; }
+.cancer-tracks { background: #fff; border: 1px solid var(--line); display: grid; grid-template-columns: minmax(0,.85fr) minmax(0,1.15fr); gap: 30px; padding: 28px; margin-top: 20px; }
+.cancer-tracks .label { font-size: .68rem; color: var(--amber-ink); }
+.cancer-tracks h4 { font-size: 1.3rem; margin: 12px 0; }
+.cancer-tracks p { font-size: .95rem; color: var(--muted); }
+.cancer-tracks ul { list-style: none; padding: 0; margin: 0; }
+.cancer-tracks li { display: grid; grid-template-columns: 100px minmax(0,1fr); gap: 18px; padding-block: 12px; border-top: 1px solid var(--line); font-size: .93rem; }
+.cancer-tracks li:first-child { padding-top: 0; border-top: 0; }
+.cancer-tracks li b { color: var(--navy); font-weight: 600; }
+.cancer-tracks li span { color: var(--muted); }
+.vaccine-evidence { padding: 25px; margin-top: 18px; background: var(--yellow-soft); border: 1px solid #e8db9f; }
+.vaccine-evidence .label { color: var(--amber-ink); }
+.vaccine-evidence>div { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin: 16px 0; }
+.vaccine-evidence>div>span { font-size: .86rem; padding: 8px 10px; border: 1px solid #e2d17f; background: #ffffffab; }
+.vaccine-evidence i { font-style: normal; color: var(--amber-ink); }
+.vaccine-evidence p { font-size: .91rem; color: var(--muted); }
+.resource-pairs { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px; margin-bottom: 44px; }
+.resource-pairs article { background: var(--tint); border: 1px solid var(--line); padding: 25px; display: grid; grid-template-columns: 54px minmax(0,1fr); gap: 18px; }
+.resource-pairs svg { width: 54px; height: 54px; stroke: var(--navy); stroke-width: 1.8; fill: none; }
+.resource-pairs svg .gold-fill { fill: var(--yellow); stroke: none; }
+.resource-pairs .label { font-size: .65rem; color: var(--blue); }
+.resource-pairs h3 { font-size: 1.4rem; margin: 9px 0 12px; }
+.resource-pairs p { color: var(--muted); font-size: .94rem; line-height: 1.65; }
+/* Optional, short entrance and hover motion. Content is always present. */
+@keyframes visual-entrance { from { opacity: .6; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes connection-glow { 0%,100% { box-shadow: 0 0 8px #f3cf4b33; } 50% { box-shadow: 0 0 18px #f3cf4b99; } }
+@media(prefers-reduced-motion:no-preference) { .hero-art { animation: visual-entrance .8s ease-out both; } .art-dot { animation: connection-glow 3s ease-in-out 2; } }
+@media(max-width:1100px) { .hero-art { margin-right: -18px; } .theme-gallery { grid-template-columns: repeat(3,minmax(0,1fr)); } .clinical-grid { gap: 16px; } .clinical-grid article { padding: 22px; } .clinical-grid h3 { font-size: 1.2rem; } .programme-ribbon a { gap: 12px; } .programme-ribbon b { font-size: .87rem; } .programme-ribbon small { font-size: .75rem; } }
+@media(max-width:820px) { .hero .wrap { grid-template-columns: minmax(0,1fr); gap: 30px; } .hero-art { margin: 0; max-width: 600px; justify-self: center; } .hero-art figcaption { margin-top: 12px; } .hero-copy { gap: 22px; } .hero h1 { font-size: clamp(2.5rem,6.2vw,3.8rem); } .programme-ribbon>.wrap { grid-template-columns: minmax(0,1fr); } .programme-ribbon a { padding: 18px 0; border-bottom: 1px solid var(--line); } .programme-ribbon a:last-child { border-bottom: 0; } .programme-ribbon .ribbon-arrow { transform: rotate(90deg); } .programme-ribbon b { font-size: 1rem; } .programme-ribbon small { font-size: .86rem; } .clinical-grid { grid-template-columns: minmax(0,1fr); gap: 18px; } .clinical-grid article { padding: 25px; } .clinical-grid h3 { font-size: 1.4rem; } .brief-kit,.cancer-tracks,.resource-pairs { grid-template-columns: minmax(0,1fr); } .clinical-loop { gap: 12px 8px; } .clinical-loop>span { font-size: .8rem; } .clinical-loop .loop-return { display: none; } .vaccine-theme { padding-left: 18px; } .challenge-illustration { max-width: 320px; } }
+@media(max-width:520px) { .hero-art figcaption { font-size: .57rem; margin-inline: 0; } .hero-scope { font-size: .92rem; } .theme-gallery { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; } .theme-gallery .label { font-size: .52rem; margin-inline: 12px; } .theme-gallery h3 { font-size: 1.15rem; margin-inline: 12px; } .theme-gallery .gallery-link { font-size: .69rem; margin-inline: 12px; } .brief-kit,.cancer-tracks,.vaccine-evidence { padding: 22px; } .cancer-tracks li { grid-template-columns: minmax(0,1fr); gap: 4px; } .resource-pairs article { grid-template-columns: 40px minmax(0,1fr); padding: 20px; gap: 12px; } .resource-pairs svg { width: 40px; height: 40px; } .clinical-loop { display: grid; grid-template-columns: 1fr; gap: 5px; padding: 22px; } .clinical-loop>span { font-size: .93rem; } .clinical-loop i { transform: rotate(90deg); justify-self: start; margin-left: 10px; } }
+@media(prefers-reduced-motion:reduce) { .theme-gallery a { transition: none; } .hero-art,.art-dot { animation: none; } }
+@media print { .hero-art { max-width: 360px; margin: 0; } .programme-ribbon a { padding-block: 10px; } .clinical-grid,.theme-gallery { grid-template-columns: repeat(3,minmax(0,1fr)); } .clinical-grid article,.resource-pairs article,.brief-kit,.cancer-tracks,.vaccine-evidence { break-inside: avoid; } .theme-gallery a { break-inside: avoid; } .clinical-loop { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }
+@media(max-width:640px) {
+  .hero .wrap { gap: 22px; }
+  .hero-copy { display: contents; }
+  .hero-copy>.label { order: 1; }
+  .hero-copy>h1 { order: 2; }
+  .hero-art { order: 3; margin: 0 -6px 5px; }
+  .hero-art figcaption { font-size: .56rem; margin-top: 7px; }
+  .hero-copy>.lede { order: 4; }
+  .hero-copy>.actions { order: 5; }
+  .hero-copy>.hero-scope { order: 6; }
+  .hero-copy>.status { order: 7; }
+}
