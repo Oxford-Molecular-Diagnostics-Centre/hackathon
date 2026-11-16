@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "index",
+    "label": "Overview",
+    "title": "A clinical question. The right collaborators.",
+    "description": "A PI discussion draft connecting clinical research questions with samples, assays, compute and AI expertise."
+  },
+  {
+    "slug": "programme",
+    "label": "Programme",
+    "title": "How the programme could work.",
+    "description": "Phases, formats, participation, intellectual property, publication and governance for a proposed Oxford Cancer AI Challenges programme."
+  },
+  {
+    "slug": "challenges",
+    "label": "Challenges",
+    "title": "Choose a problem to develop.",
+    "description": "Illustrative clinical research challenges, with proposed assay-validation additions and an overlap review."
+  },
+  {
+    "slug": "vaccines",
+    "label": "Cancer vaccines",
+    "title": "Cancer vaccine epitope prediction.",
+    "description": "A proposed disease-specific neoantigen prioritisation challenge informed by TESLA, IMMREP and T-cell activation benchmarks."
+  },
+  {
+    "slug": "resources",
+    "label": "Data & partners",
+    "title": "Data, samples and compute.",
+    "description": "Candidate datasets, access conditions and possible biological and computing support for research challenges."
+  },
+  {
+    "slug": "precedents",
+    "label": "Similar events",
+    "title": "Build on what already exists.",
+    "description": "Source-linked event summaries and a targeted check of overlap with existing research competitions."
+  },
+  {
+    "slug": "propose",
+    "label": "Propose a challenge",
+    "title": "Propose a research challenge.",
+    "description": "Describe a scientific problem without needing a complete dataset, AI method or technical specification."
+  }
+]

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Propose a challenge · Oxford Cancer AI Challenges</title>
+<meta name="description" content="Describe a scientific problem without needing a complete dataset, AI method or technical specification.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#002147">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Propose a challenge · Oxford Cancer AI Challenges">
+<meta property="og:description" content="Describe a scientific problem without needing a complete dataset, AI method or technical specification.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' fill='%23002147'/%3E%3Ccircle cx='18' cy='24' r='12' fill='%23fff'/%3E%3Ccircle cx='30' cy='24' r='12' fill='%23fff'/%3E%3Cpath d='M24 13.6a12 12 0 0 1 0 20.8 12 12 0 0 1 0-20.8z' fill='%23f3cf4b'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="visuals.css">
+<link rel="stylesheet" href="site.css">
+<script src="site-config.js" defer></script>
+<script src="site.js" defer></script>
+</head>
+<body data-page="propose.html">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head"><div class="wrap"><a class="logos" href="index.html" aria-label="Oxford Cancer AI Challenges overview"><img class="logo-ox" src="assets/brand/oxford-cancer.png" alt="Oxford Cancer and University of Oxford" width="106" height="56"><span></span><img class="logo-cruk" src="assets/brand/cruk.svg" alt="Cancer Research UK" width="89" height="36"></a><button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu <span aria-hidden="true">☰</span></button><nav class="site-nav" id="site-nav" aria-label="Main"><a href="index.html">Overview</a><a href="programme.html">Programme</a><a href="challenges.html">Challenges</a><a href="resources.html">Data &amp; partners</a><a href="precedents.html">Similar events</a><a href="propose.html" aria-current="page">Propose a challenge</a></nav></div></header>
+<main id="main"><section class="page-intro"><div class="wrap"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Overview</a><span aria-hidden="true">/</span><span aria-current="page">Propose a challenge</span></nav><p class="label">Oxford Cancer AI Challenges · PI discussion draft</p><h1>Propose a research challenge.</h1><p>Describe a scientific problem without needing a complete dataset, AI method or technical specification.</p></div></section><section class="section" id="data-protection">
+  <div class="wrap">
+    <div class="section-head"><h2>How will my data be protected?</h2><p>Submitting a challenge does not mean that you need to make your research data public. Challenge owners can discuss suitable access arrangements with the organisers before any data are used.</p></div>
+    <p>Depending on the project, options may include publicly available datasets, controlled access, secure research environments or approaches that avoid sharing individual-level data. <strong>Challenge owners retain control over whether and under what approved conditions their data can be used</strong>, within applicable consent, institutional requirements and existing agreements.</p>
+    <div class="tracks" aria-label="Possible data protection approaches">
+      <div><span class="label">Possible approach</span><h3>Federated learning</h3><p>Models can be trained or evaluated across institutions without pooling the underlying datasets. Technical feasibility, model updates and disclosure risks would need review with data owners.</p></div>
+      <div><span class="label">Possible approach</span><h3>Synthetic datasets</h3><p>Artificial data based on real-data characteristics may help develop and test initial approaches. They do not replace validation on real data, and their creation and release would need appropriate review.</p></div>
+      <div><span class="label">Possible approach</span><h3>Trusted Research Environments</h3><p>Sensitive data can remain within an approved secure environment, with controlled access and output checks. Participants would analyse data without downloading the underlying datasets.</p></div>
+    </div>
+    <p class="note">These are options to explore, not infrastructure or services already available. Owners, organisers, participating institutions and any providers would agree responsibilities, permissions, access controls and output arrangements before work begins. Data must be used lawfully, ethically and in line with relevant consent, approvals and access conditions.</p>
+  </div>
+</section><section class="section tint" id="join">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Start with the scientific question.</h2>
+      <p>You don’t need a complete solution, a prepared dataset or experience with hackathons. Tell us about a specific problem in your research, even if you don’t know which AI approach might help. We can work together to explore whether it could become a challenge and refine promising proposals. Fields marked <span class="req">*</span> are required. Please don’t include patient data or confidential information.</p>
+    </div>
+    <noscript><p class="note">These forms need JavaScript to prepare a local draft. No online submission service is currently configured.</p></noscript>
+    <div class="filters" role="tablist" aria-label="Choose how to take part" id="role-tabs">
+      <button class="chip" role="tab" type="button" data-tab="challenge" aria-selected="true" aria-controls="form-challenge" id="tab-challenge">Propose a research challenge</button>
+      <button class="chip" role="tab" type="button" data-tab="team" aria-selected="false" aria-controls="form-team" id="tab-team">Future team interest</button>
+      <button class="chip" role="tab" type="button" data-tab="infrastructure" aria-selected="false" aria-controls="form-infrastructure" id="tab-infrastructure">Future infrastructure interest</button>
+    </div>
+    <div class="join">
+      <div><form id="form-challenge" data-heading="CHALLENGE PROPOSAL" role="tabpanel" aria-labelledby="tab-challenge">
+<div class="field full"><label for="challenge-0" data-name="Challenge title">Challenge title <span class="req" aria-hidden="true">*</span></label><input id="challenge-0" name="Challenge title" type="text" required></div>
+<div class="field "><label for="challenge-1" data-name="Lead and organisation">Lead and organisation <span class="req" aria-hidden="true">*</span></label><input id="challenge-1" name="Lead and organisation" type="text" required></div>
+<div class="field "><label for="challenge-2" data-name="Email">Email <span class="req" aria-hidden="true">*</span></label><input id="challenge-2" name="Email" type="email" autocomplete="email" required></div>
+<div class="field full"><label for="challenge-3" data-name="Clinical or research contact">Clinical or research contact</label><input id="challenge-3" name="Clinical or research contact" type="text"></div>
+<div class="field full"><label for="challenge-4" data-name="What clinical or cancer research problem needs solving?">What clinical or cancer research problem needs solving? <span class="req" aria-hidden="true">*</span></label><textarea id="challenge-4" name="What clinical or cancer research problem needs solving?" required placeholder="What decision, experiment or patient-related research question would a useful result help with? You do not need to know the AI approach."></textarea></div>
+<div class="field full"><label for="challenge-5" data-name="What data could teams use?">What data might be relevant? (optional)</label><textarea id="challenge-5" name="What data could teams use?" placeholder="Not sure — happy to discuss. Describe any relevant data or access concerns; no dataset upload is needed."></textarea></div>
+<div class="field "><label for="challenge-6" data-name="Data access">Data access</label><select id="challenge-6" name="Data access" aria-describedby="access-help"><option>Not sure — happy to discuss</option><option>Publicly available</option><option>Available after accepting terms</option><option>Restricted access — approval required</option><option>Secure environment only</option></select><small id="access-help">See the <a href="resources.html#data">access category explanations</a>. No access decision is made by choosing an option.</small></div>
+<div class="field "><label for="challenge-7" data-name="Preferred format">Preferred format</label><select id="challenge-7" name="Preferred format"><option>Not sure — happy to discuss</option><option>Short hackathon (days)</option><option>Research competition (weeks)</option><option>Longer research benchmark (months)</option></select></div>
+<div class="field full"><label for="challenge-8" data-name="How would success be measured?">How would success be measured?</label><select id="challenge-8" name="How would success be measured?"><option>Not sure — happy to discuss</option><option>Compare with a baseline or benchmark</option><option>Expert review of a prototype or workflow</option><option>Independent evaluation on held-out data</option><option>Other — describe below</option></select></div>
+<div class="field full"><label for="challenge-9" data-name="Preferred timeframe">Preferred timeframe</label><select id="challenge-9" name="Preferred timeframe"><option>Not sure — happy to discuss</option><option>A few days</option><option>Several weeks</option><option>Several months or longer</option></select></div>
+<div class="field full"><label for="challenge-availability" data-name="Dataset availability">Dataset availability</label><select id="challenge-availability" name="Dataset availability"><option>Not sure — happy to discuss</option><option>Existing public resources may be suitable</option><option>Our group has data; access needs discussion</option><option>Data would need to be prepared or collected</option><option>A synthetic or federated approach may help</option><option>Sample or assay support may be needed</option></select></div>
+<div class="field full"><label for="challenge-compute" data-name="Computing requirements">Computing requirements</label><select id="challenge-compute" name="Computing requirements"><option>Not sure — happy to discuss</option><option>Standard computing may be sufficient</option><option>GPU or model API access may help</option><option>Large storage or intensive computing may be needed</option><option>An approved secure environment may be needed</option></select></div>
+<div class="field full"><label for="challenge-cancer" data-name="Cancer type or clinical setting">Cancer type or clinical setting (optional)</label><input id="challenge-cancer" name="Cancer type or clinical setting" placeholder="For example: melanoma vaccine targets; lung cancer treatment response; or several cancer types"></div>
+<div class="field full"><label for="challenge-resources" data-name="Samples, assays or partner support">Samples, assays or partner support (optional)</label><textarea id="challenge-resources" name="Samples, assays or partner support" placeholder="What evidence exists, and what might a sample, assay or compute partner help provide? Not sure — happy to discuss."></textarea></div>
+<div class="field full"><label for="challenge-notes" data-name="Additional context or evaluation ideas">Additional context or evaluation ideas (optional)</label><textarea id="challenge-notes" name="Additional context or evaluation ideas" placeholder="Describe the scientific need, an existing way of assessing progress, or what you would like help to define."></textarea></div>
+<label class="check"><input type="checkbox" id="challenge-consent" required><span>I confirm this draft contains no patient data or confidential information. Contact and privacy arrangements must be communicated before online submission opens. <a class="privacy" hidden>Read the privacy notice.</a></span></label>
+<p class="err" role="alert" hidden></p>
+<div><button class="btn" type="submit" disabled>Prepare proposal draft</button></div>
+</form>
+<form id="form-team" data-heading="FUTURE TEAM INTEREST — DRAFT, NOT REGISTRATION" role="tabpanel" aria-labelledby="tab-team" hidden>
+<p class="field full fine">Participant recruitment comes later, after challenge approval. This optional local interest draft does not register a team or reserve a place.</p>
+<div class="field full"><label for="team-0" data-name="Team or participant name">Team or participant name <span class="req" aria-hidden="true">*</span></label><input id="team-0" name="Team or participant name" type="text" required></div>
+<div class="field "><label for="team-1" data-name="Organisation">Organisation</label><input id="team-1" name="Organisation" type="text"></div>
+<div class="field "><label for="team-2" data-name="Email">Email <span class="req" aria-hidden="true">*</span></label><input id="team-2" name="Email" type="email" autocomplete="email" required></div>
+<div class="field "><label for="team-3" data-name="Challenge">Challenge</label><select id="team-3" name="Challenge"><option>Multimodal cfDNA detection</option><option>Platelet DNA</option><option>Nanopore cfDNA pipeline</option><option>Liquid biopsy data harmoniser</option><option>Histology to cell types</option><option>Single-cell spatial recovery</option><option>Proteomic risk</option><option>Immunotherapy response</option><option>Protein binding and immune-function validation</option><option>Tumour–immune assay prototypes</option><option>Functional omics evidence</option><option>cfDNA benchmark</option><option>Cancer vaccine epitope prediction</option><option>Any challenge</option></select></div>
+<div class="field "><label for="team-4" data-name="Track">Track</label><select id="team-4" name="Track"><option>Supported</option><option>Community</option><option>Open</option></select></div>
+<div class="field full"><label for="team-5" data-name="Team size">Team size</label><input id="team-5" name="Team size" type="text"></div>
+<div class="field full"><label for="team-6" data-name="Skills in the team">Skills in the team <span class="req" aria-hidden="true">*</span></label><textarea id="team-6" name="Skills in the team" required></textarea></div>
+<div class="field full"><label for="team-7" data-name="What skills or resources do you need?">What skills or resources do you need?</label><textarea id="team-7" name="What skills or resources do you need?"></textarea></div>
+<label class="check"><input type="checkbox" id="team-consent" required><span>I confirm this draft contains no patient data or confidential information. Contact and privacy arrangements must be communicated before online submission opens. <a class="privacy" hidden>Read the privacy notice.</a></span></label>
+<p class="err" role="alert" hidden></p>
+<div><button class="btn" type="submit" disabled>Prepare interest draft</button></div>
+</form>
+<form id="form-infrastructure" data-heading="FUTURE INFRASTRUCTURE INTEREST — DRAFT" role="tabpanel" aria-labelledby="tab-infrastructure" hidden>
+<p class="field full fine">Wider provider outreach would follow challenge review. This optional draft explores possible support; it makes no resource commitment.</p>
+<div class="field "><label for="infrastructure-0" data-name="Organisation">Organisation <span class="req" aria-hidden="true">*</span></label><input id="infrastructure-0" name="Organisation" type="text" required></div>
+<div class="field "><label for="infrastructure-1" data-name="Contact name">Contact name <span class="req" aria-hidden="true">*</span></label><input id="infrastructure-1" name="Contact name" type="text" required></div>
+<div class="field full"><label for="infrastructure-2" data-name="Email">Email <span class="req" aria-hidden="true">*</span></label><input id="infrastructure-2" name="Email" type="email" autocomplete="email" required></div>
+<div class="field "><label for="infrastructure-3" data-name="Type of offer">Type of offer</label><select id="infrastructure-3" name="Type of offer"><option>Clinical samples or biobank access — subject to approvals</option><option>Assays, sequencing or experimental validation</option><option>Curated clinical or reference data</option><option>GPU compute</option><option>Storage and transfer</option><option>Secure environment</option><option>Model credits</option><option>Scoring platform</option><option>Engineering support</option></select></div>
+<div class="field "><label for="infrastructure-4" data-name="For which challenge?">For which challenge?</label><select id="infrastructure-4" name="For which challenge?"><option>Multimodal cfDNA detection</option><option>Platelet DNA</option><option>Nanopore cfDNA pipeline</option><option>Liquid biopsy data harmoniser</option><option>Histology to cell types</option><option>Single-cell spatial recovery</option><option>Proteomic risk</option><option>Immunotherapy response</option><option>Protein binding and immune-function validation</option><option>Tumour–immune assay prototypes</option><option>Functional omics evidence</option><option>cfDNA benchmark</option><option>Cancer vaccine epitope prediction</option><option>Any challenge</option></select></div>
+<div class="field full"><label for="infrastructure-5" data-name="Amount and duration">Amount and duration <span class="req" aria-hidden="true">*</span></label><input id="infrastructure-5" name="Amount and duration" type="text" required></div>
+<div class="field full"><label for="infrastructure-6" data-name="Security certifications and data location">Security certifications and data location</label><input id="infrastructure-6" name="Security certifications and data location" type="text"></div>
+<div class="field full"><label for="infrastructure-7" data-name="Conditions on use">Conditions on use</label><textarea id="infrastructure-7" name="Conditions on use"></textarea></div>
+<label class="check"><input type="checkbox" id="infrastructure-consent" required><span>I confirm this draft contains no patient data or confidential information. Contact and privacy arrangements must be communicated before online submission opens. <a class="privacy" hidden>Read the privacy notice.</a></span></label>
+<p class="err" role="alert" hidden></p>
+<div><button class="btn" type="submit" disabled>Prepare support draft</button></div>
+</form></div>
+      <aside class="draft" aria-label="Your entry">
+        <span class="label">Your local draft</span>
+        <p class="ok" id="draft-status" role="status" tabindex="-1" hidden></p>
+        <p id="draft-help">Draft only: information stays in this page until you copy or download it. Nothing is sent to organisers. Public launch requires a working submission route and privacy arrangements.</p><pre id="draft-text"></pre>
+        <button class="btn yellow" type="button" id="copy-draft">Copy draft</button><button class="btn ghost" type="button" id="download-draft">Download draft</button>
+      </aside>
+    </div>
+  </div>
+</section>
+</main>
+<section class="cta"><div class="wrap"><h2>Bring a clinical question.<br>Shape a research challenge.</h2><div class="actions"><a class="btn yellow" href="propose.html#join">Propose a research challenge</a><a class="btn ghost" href="programme.html#how">How it could work</a></div></div></section>
+<footer><div class="wrap"><div class="foot-logos"><img src="assets/brand/oxford-cancer.png" alt="Oxford Cancer and University of Oxford" width="121" height="64"><img src="assets/brand/cruk.svg" alt="Cancer Research UK" width="104" height="42"></div><div class="footer-links"><a href="programme.html#faq">Participation, IP & credit</a><a href="resources.html#data-protection">Data protection</a><a href="precedents.html">Sources & overlap review</a><a href="programme.html#review">Draft status & approvals</a></div><p>PI discussion draft for the CRUK Research Data Community and Oxford cancer research community. Challenges, owners, data access, samples, compute, partners and funding are unconfirmed. Branding does not imply endorsement.</p><p>Hosted on GitHub Pages for review; publicly reachable, not a confidential submission channel. Public launch remains conditional on organisational permissions, data governance and working submission/privacy arrangements. <a href="programme.html#review">Review conditions</a>. This site does not offer medical advice.</p></div></footer>
+</body></html>

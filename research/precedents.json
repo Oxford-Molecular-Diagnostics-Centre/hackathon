@@ -1,0 +1,145 @@
+{
+  "reviewed": "2026-11-16",
+  "scope": "Targeted comparison of published briefs and selected papers, not an exhaustive novelty or patent search. Events are external precedents, not Oxford partners. Interpretations and Oxford adaptations are proposals.",
+  "unverified": [],
+  "events": [
+    {
+      "id": "assay-a-thon",
+      "name": "ImmunOS × Pillar VC Assay-A-Thon",
+      "format": "Experimental, engineering and computational hackathon",
+      "status": "Published event brief for 6–8 November 2026; outcomes not verified in this review.",
+      "url": "https://immunos.bio/assay-a-thon/",
+      "requested": "Three published themes: validate designed proteins, prototype assay hardware, and connect molecular measurements with functional biology.",
+      "outputs": "The published brief describes prototype assessment and follow-up validation. The supplied opening deck gives protein-triage, hardware and functional-omics examples; these are proposed projects, not reported successes.",
+      "overlap": "Protein validation overlaps our binding brief; assay hardware and paired functional measurements were not separate tasks in our catalogue.",
+      "decision": "Expand the binding brief; add two cancer-specific assay concepts. Treat negative-result capture as a work package in the existing harmonisation challenge.",
+      "target": "challenges.html#theme-validation"
+    },
+    {
+      "id": "tesla",
+      "name": "TESLA neoantigen prediction consortium",
+      "format": "Shared-data prediction challenge with experimental testing",
+      "status": "Published research precedent; Cell, 2020.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7652061/",
+      "requested": "Teams ranked candidate neoantigens from common tumour/normal sequencing, RNA and HLA information; selected predictions were assessed using patient-matched T-cell evidence.",
+      "outputs": "Ranked peptide–HLA predictions and experimental comparison of immunogenicity.",
+      "overlap": "Direct precedent for our already-listed vaccine epitope family; a generic re-run would repeat an established task.",
+      "decision": "Retain one vaccine family. Scope a new disease setting, cohort or HLA question and a prospective assay budget, then compare with existing baselines.",
+      "target": "vaccines.html#prior-art"
+    },
+    {
+      "id": "immrep25",
+      "name": "IMMREP25: TCR specificity",
+      "format": "Community benchmark on unseen peptide–HLA complexes",
+      "status": "Published 2025 competition description.",
+      "url": "https://www.kaggle.com/competitions/immrep25",
+      "requested": "Predict TCR specificity for peptide–HLA complexes absent from public TCR binding data.",
+      "outputs": "Scores for receptor–target pairs; the organiser described a per-peptide partial-AUC evaluation.",
+      "overlap": "Adjacent to vaccine target selection. It predicts receptor specificity rather than choosing tumour epitopes for a patient.",
+      "decision": "Use as an overlapping benchmark to check before proposing a TCR subtask; keep the vaccine brief focused on its clinical owner’s target-selection decision.",
+      "target": "vaccines.html#prior-art"
+    },
+    {
+      "id": "tap",
+      "name": "CASP–DREAM TAP: T-cell activation",
+      "format": "Functional TCR–peptide–MHC prediction benchmark",
+      "status": "Official Synapse overview read in the browser: registration open; challenge planned to begin January 2027. No results assessed.",
+      "url": "https://www.synapse.org/Synapse:syn77965030/wiki/643867",
+      "requested": "Classify whether a TCR–peptide–MHC combination activates a T cell, using functional assay labels.",
+      "outputs": "Activation predictions across a shared benchmark with multiple peptide and class-I MHC contexts.",
+      "overlap": "A close active overlap if Oxford frames a generic TCR activation competition. Activation and binding are distinct endpoints.",
+      "decision": "Do not add another general activation benchmark. Explore collaboration or a specifically justified cancer-vaccine cohort and decision.",
+      "target": "vaccines.html#prior-art"
+    },
+    {
+      "id": "adaptyv-pmhc",
+      "name": "Anthropic × Adaptyv: KRAS pMHC binder design",
+      "format": "Protein design with experimental counter-screens",
+      "status": "Published 2026 task; reviewed as a brief, not as evidence of completed validation.",
+      "url": "https://proteinbase.com/competitions/anthropic-adaptyv-2026/challenges/pmhc",
+      "requested": "Design a binder selective for mutant KRAS G12D peptide–HLA over the wild-type complex and peptide-free HLA.",
+      "outputs": "Protein designs evaluated for target binding and counter-target specificity.",
+      "overlap": "Related cancer immunity context, but the target peptide is already specified. This differs from selecting vaccine epitopes.",
+      "decision": "Borrow explicit counter-controls and agreed validation; do not label vaccine epitope ranking as an identical binder-design task.",
+      "target": "vaccines.html#prior-art"
+    },
+    {
+      "id": "gem-rbx1",
+      "name": "GEM × Adaptyv: RBX-1 binder design",
+      "format": "Cancer-relevant target competition with laboratory testing",
+      "status": "Published 2026 rules; actual results not reviewed here.",
+      "url": "https://www.gembio.ai/gemadaptyv2026",
+      "requested": "Submit ranked de novo binders for RBX-1 and a short method description, for organiser-led expression and binding measurements.",
+      "outputs": "A ranked sequence list; the brief described shared experimental capacity and reference controls.",
+      "overlap": "A precedent for the existing protein-binding theme, not a new Oxford challenge by itself.",
+      "decision": "Keep one binding-and-validation brief, with a new clinical or biological endpoint only if an owner and assay partner can support it.",
+      "target": "challenges.html#binding"
+    },
+    {
+      "id": "dream-pd1",
+      "name": "Anti–PD-1 Response Prediction DREAM Challenge",
+      "format": "Model-to-data evaluation using protected clinical trials",
+      "status": "Results paper published 2024.",
+      "url": "https://link.springer.com/article/10.1186/s12967-023-04705-3",
+      "requested": "Predict immunotherapy clinical outcomes, with models evaluated inside protected trial-data environments and assessed on a further trial.",
+      "outputs": "Containerised prediction models, clinical outcome comparisons and evaluation of generalisability.",
+      "overlap": "Direct precedent for our existing immunotherapy-response example; the general question is already established.",
+      "decision": "Retain the current brief, requiring a defined cancer setting, independent evidence and a clearly justified extension rather than duplicating this benchmark.",
+      "target": "challenges.html#immuno"
+    }
+  ],
+  "supplied_deck": {
+    "name": "Assay-A-Thon Opening Deck",
+    "url": "https://claude.ai/artifact/LTwubVmbrQ2tLAK2sD3UcE?utm_source=luma#slide-32401ff1c8d8",
+    "local_source": "Assay-A-Thon Opening Deck_files/saved_resource.html (user-supplied saved HTML, outside the site repository)",
+    "verification": "25-slide saved deck read locally; public Claude link remained access-blocked. Reviewed examples and hypotheses, not project outcomes. Raw deck and third-party assets are not republished.",
+    "slides": "Protein examples: 10–11. Hardware examples: 13–15. Functional omics examples: 17–18.",
+    "examples": [
+      {
+        "name": "Binder-Sieve",
+        "task": "Triage designed binder pools using inexpensive experimental evidence.",
+        "decision": "Work package in the existing binding-and-validation brief."
+      },
+      {
+        "name": "Synapse-Switch",
+        "task": "Compare binding with an immune-cell functional endpoint.",
+        "decision": "Functional validation work package in the same binding brief."
+      },
+      {
+        "name": "Trust-Curve",
+        "task": "Calibrate a model confidence score against measurements.",
+        "decision": "Calibration work package, not a separate challenge."
+      },
+      {
+        "name": "Fail-Forward",
+        "task": "Record failed expression, solubility and binding outcomes.",
+        "decision": "Add an assay-evidence work package to the existing harmonisation brief."
+      },
+      {
+        "name": "Cell/tissue confinement, transfer and flow capture",
+        "task": "Prototype reproducible cell positioning, movement or capture and readouts.",
+        "decision": "New cancer-specific assay-prototyping concept; choose one device task, not all at once."
+      },
+      {
+        "name": "Morpho-Seq",
+        "task": "Connect a measured morphological response to molecular profiling.",
+        "decision": "Optional work package in one functional-omics challenge."
+      },
+      {
+        "name": "Perturb-Kill-Seq",
+        "task": "Connect perturbation-associated immune killing with molecular identity.",
+        "decision": "Alternative work package in the same functional-omics challenge."
+      },
+      {
+        "name": "Syn-Secretome",
+        "task": "Connect a secretion phenotype with molecular profiling.",
+        "decision": "Alternative work package in the same functional-omics challenge."
+      },
+      {
+        "name": "Spatial-Stim-Seq",
+        "task": "Connect a local tissue response with spatial molecular measurements.",
+        "decision": "Alternative work package in the same functional-omics challenge."
+      }
+    ]
+  }
+}

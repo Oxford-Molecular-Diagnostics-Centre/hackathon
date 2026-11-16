@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Challenges · Oxford Cancer AI Challenges</title>
+<meta name="description" content="Illustrative clinical research challenges, with proposed assay-validation additions and an overlap review.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#002147">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Challenges · Oxford Cancer AI Challenges">
+<meta property="og:description" content="Illustrative clinical research challenges, with proposed assay-validation additions and an overlap review.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' fill='%23002147'/%3E%3Ccircle cx='18' cy='24' r='12' fill='%23fff'/%3E%3Ccircle cx='30' cy='24' r='12' fill='%23fff'/%3E%3Cpath d='M24 13.6a12 12 0 0 1 0 20.8 12 12 0 0 1 0-20.8z' fill='%23f3cf4b'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="visuals.css">
+<link rel="stylesheet" href="site.css">
+<script src="site-config.js" defer></script>
+<script src="site.js" defer></script>
+</head>
+<body data-page="challenges.html">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head"><div class="wrap"><a class="logos" href="index.html" aria-label="Oxford Cancer AI Challenges overview"><img class="logo-ox" src="assets/brand/oxford-cancer.png" alt="Oxford Cancer and University of Oxford" width="106" height="56"><span></span><img class="logo-cruk" src="assets/brand/cruk.svg" alt="Cancer Research UK" width="89" height="36"></a><button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu <span aria-hidden="true">☰</span></button><nav class="site-nav" id="site-nav" aria-label="Main"><a href="index.html">Overview</a><a href="programme.html">Programme</a><a href="challenges.html" aria-current="page">Challenges</a><a href="resources.html">Data &amp; partners</a><a href="precedents.html">Similar events</a><a href="propose.html">Propose a challenge</a></nav></div></header>
+<main id="main"><section class="page-intro"><div class="wrap"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Overview</a><span aria-hidden="true">/</span><span aria-current="page">Challenges</span></nav><p class="label">Oxford Cancer AI Challenges · PI discussion draft</p><h1>Choose a problem to develop.</h1><p>Illustrative clinical research challenges, with proposed assay-validation additions and an overlap review.</p></div></section><section class="section tint" id="challenges">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Illustrative challenge ideas</h2>
+      <p>These proposed examples illustrate possible themes, not an approved portfolio or open competitions. No research group, challenge owner or data release is confirmed. Two assay concepts have been added from the reviewed precedents; overlapping ideas have been merged into existing briefs. Further themes will be shaped with Oxford research groups, clinicians and PIs. New to the field? See the <a href="programme.html#terms">key terms</a>.</p>
+    </div>
+
+    <div class="theme-gallery" aria-label="Explore possible research themes">
+      <a href="#theme-blood" data-theme-jump><img src="assets/illustrations/blood-signals.svg" alt="" width="320" height="180" loading="lazy"><span class="label">01 / Detection</span><h3>Signals in blood</h3><span class="gallery-link">Explore the examples ↗</span></a>
+      <a href="#theme-tissue" data-theme-jump><img src="assets/illustrations/tissue-map.svg" alt="" width="320" height="180" loading="lazy"><span class="label">02 / Tumour biology</span><h3>Reading tissue</h3><span class="gallery-link">Explore the examples ↗</span></a>
+      <a href="#theme-predict" data-theme-jump><img src="assets/illustrations/treatment-response.svg" alt="" width="320" height="180" loading="lazy"><span class="label">03 / Clinical insight</span><h3>Risk & response</h3><span class="gallery-link">Explore the examples ↗</span></a>
+      <a href="#theme-drugs" data-theme-jump><img src="assets/illustrations/molecular-design.svg" alt="" width="320" height="180" loading="lazy"><span class="label">04 / Drug discovery</span><h3>Better medicines</h3><span class="gallery-link">Explore the example ↗</span></a>
+      <a href="vaccines.html"><img src="assets/illustrations/vaccine-epitopes.svg" alt="" width="320" height="180" loading="lazy"><span class="label">05 / Cancer immunity</span><h3>Vaccine targets</h3><span class="gallery-link">Read the vaccine brief ↗</span></a>
+      <a href="#theme-validation" data-theme-jump><img src="assets/illustrations/assay-validation.svg" alt="" width="320" height="180" loading="lazy"><span class="label">06 / Experimental evidence</span><h3>Assays & function</h3><span class="gallery-link">Explore two new concepts ↗</span></a>
+    </div>
+    <details class="flagship-disclosure" id="cfdna-benchmark"><summary>Longer-term concept: multi-cancer blood test benchmark</summary><article class="flagship">
+      <div>
+        <span class="label">Illustrative proposal · longer research competition</span>
+        <h3>An open benchmark for multi-cancer blood tests</h3>
+        <p>A multi-cancer early detection test looks for signals from many cancers in one blood sample. These tests are usually evaluated on different cohorts, with different cancer types, stages and patient groups, so their results are hard to compare directly. Large patient datasets also tend to stay private, which makes new methods harder to build.</p>
+        <p>This benchmark would create a shared dataset and a fair public ranking, as ImageNet's ILSVRC did for image classification and CASP did for protein structure prediction.</p>
+        <div class="explain"><b>What does sensitivity at 95% specificity mean?</b> It asks how many cancers a test finds if it may raise a false alarm in only 5 of every 100 people without cancer. False alarms matter because they can lead to anxiety and unnecessary investigations.</div>
+      </div>
+      <div>
+        <span class="label">Illustrative design: 5,000 samples, not an available dataset</span>
+        <div class="split" role="img" aria-label="3,000 training samples, 1,000 validation samples and 1,000 final test samples">
+          <div class="train">3,000</div><div class="val">1,000</div><div class="test">1,000</div>
+        </div>
+        <div class="split-key">
+          <div><b>Train</b>Access route to agree</div>
+          <div><b>Validate</b>Possible leaderboard</div>
+          <div><b>Final test</b>Independent final evaluation</div>
+        </div>
+        <dl class="facts">
+          <div><dt>Method</dt><dd>A possible design: teams submit models for evaluation on hidden samples, under agreed data conditions.</dd></div>
+          <div><dt>Ranking metric</dt><dd>For example, sensitivity at 95% specificity</dd></div>
+          <div><dt>Samples</dt><dd>Collected in a similar way to <a href="https://doi.org/10.1016/S1470-2045(23)00277-2">SYMPLIFY</a>, using low-cost sequencing such as shallow WGS or WGBS</dd></div>
+          <div><dt>Data readiness</dt><dd>Data partner, funding and approvals would be needed; none is agreed</dd></div>
+          <div><dt>Likely first step</dt><dd>Test the submission and scoring system on existing public cfDNA data</dd></div>
+        </dl>
+      </div>
+    </article></details>
+
+    <aside class="vaccine-feature"><img src="assets/illustrations/vaccine-epitopes.svg" alt="" width="320" height="180"><div><span class="label">One existing family · expanded, not duplicated</span><h3>Cancer vaccine epitope prediction</h3><p>A focused brief with possible cancer-type tracks, experimental endpoints and a comparison with TESLA, IMMREP and TAP.</p><a href="vaccines.html">Read the full vaccine challenge →</a></div></aside>
+    <div class="filters js-only" role="group" aria-label="Filter challenges by data readiness" id="challenge-filters">
+      <button class="chip" type="button" data-v="all" aria-pressed="true">All 11</button>
+      <button class="chip" type="button" data-v="open" aria-pressed="false">Public resources to explore (4)</button>
+      <button class="chip" type="button" data-v="mixed" aria-pressed="false">Public and restricted resources (3)</button>
+      <button class="chip" type="button" data-v="partner" aria-pressed="false">Data partner or approval needed (4)</button>
+    </div>
+    <div class="theme" id="theme-blood">
+      <div class="theme-head"><h3>Detect cancer earlier from a blood sample</h3><p>A liquid biopsy looks for traces of a tumour in blood instead of taking tissue. These challenges aim to find a faint signal reliably, without too many false alarms.</p></div>
+      <article class="ch" id="multimodal" data-ready="mixed">
+        <div><h4>Combine blood DNA signals into one cancer test</h4><span class="badge mixed">Public and restricted resources</span><span class="label">Illustrative competition · 8 weeks</span></div><details class="brief-details"><summary>Research task, evidence and evaluation</summary><div class="brief-body">
+        <div><span class="label">Why it matters</span><p>Tumours mark the DNA fragments they release in several ways, including methylation, fragment length, copy number changes and mutations. Any one signal can be too faint in early disease. Oxford's TriOx test combined several signals and reported 94.9% sensitivity and 88.8% specificity in an early study across six cancer types, in people with symptoms. Larger studies are still needed.</p><a class="read" href="https://doi.org/10.1038/s41467-024-55428-y">TriOx study, Nature Communications 2025</a></div>
+        <div><dl>
+          <div><dt class="label">The challenge</dt><dd>Build a scalable pipeline that combines these signals and classifies cancer versus no cancer.</dd></div>
+          <div><dt class="label">How to score it</dt><dd>Sensitivity at 95% specificity, reported by cancer type and stage.</dd></div>
+          <div><dt class="label">Data route</dt><dd>FinaleDB, Cell-free Epigenome Atlas, GSE213890, DELFI</dd></div>
+        </dl></div>
+      </div></details></article>
+      <article class="ch" id="platelet" data-ready="partner">
+        <div><h4>Find the tumour DNA stored in platelets</h4><span class="badge partner">Data partner or approval needed</span><span class="label">Illustrative competition · 10 weeks</span></div><details class="brief-details"><summary>Research task, evidence and evaluation</summary><div class="brief-body">
+        <div><span class="label">Why it matters</span><p>Blood clears loose DNA quickly, and early tumours release very little. Oxford researchers showed that platelets, the cells best known for clotting, take up DNA fragments, including DNA from cancer and precancerous bowel cells. Current tests usually discard platelets. One researcher suggests that including them might even double DNA yield, though this is at a very early stage.</p><a class="read" href="https://news.cancerresearchuk.org/2025/08/14/platelets-the-humble-blood-cells-that-could-expose-cancers-secrets/">Cancer Research UK news on the Oxford study, 2025</a></div>
+        <div><dl>
+          <div><dt class="label">The challenge</dt><dd>Measure how much useful signal platelet DNA adds, and build analysis methods suited to it.</dd></div>
+          <div><dt class="label">How to score it</dt><dd>Added sensitivity over plasma alone, on matched samples.</dd></div>
+          <div><dt class="label">Data route</dt><dd>Paired platelet and plasma samples, from a contributing lab</dd></div>
+        </dl></div>
+      </div></details></article>
+      <article class="ch" id="nanopore" data-ready="mixed">
+        <div><h4>Tune nanopore analysis for cell-free DNA</h4><span class="badge mixed">Public and restricted resources</span><span class="label">Illustrative competition · 8 weeks</span></div><details class="brief-details"><summary>Research task, evidence and evaluation</summary><div class="brief-body">
+        <div><span class="label">Why it matters</span><p>Nanopore sequencers read DNA of any length and are portable. In a small study of lung and bladder cancer, tumour fractions correlated strongly with short-read results (R = 0.98), and results could be available within 24 hours. Nanopore also recovered far more long fragments. Lower single-read accuracy still limits the detection of small mutations.</p><a class="read" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10701599/">Nanopore cfDNA study, EMBO Molecular Medicine 2023</a></div>
+        <div><dl>
+          <div><dt class="label">The challenge</dt><dd>Compare basecalling and analysis methods on short fragments, then combine copy number, fragment and methylation signals in one workflow.</dd></div>
+          <div><dt class="label">How to score it</dt><dd>Accuracy against known reference data, then signal detection on cancer samples.</dd></div>
+          <div><dt class="label">Data route</dt><dd>Oxford Nanopore Open Data for development, controlled cancer cohorts for testing</dd></div>
+        </dl></div>
+      </div></details></article>
+      <article class="ch" id="harmonise" data-ready="open">
+        <div><h4>Make liquid biopsy data work together</h4><span class="badge open">Public resources to explore</span><span class="label">Illustrative hackathon · 2–3 days</span></div><details class="brief-details"><summary>Research task, evidence and evaluation</summary><div class="brief-body">
+        <div><span class="label">Why it matters</span><p>Studies differ in how blood is collected and processed, how deeply it is sequenced, and how patients and cancer stages are recorded. These differences make cohorts hard to combine, and can look like cancer signals to a model. The BloodPAC consortium has built a shared data commons in response to this problem.</p><a class="read" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8140805/">BloodPAC Data Commons, 2021</a></div>
+        <div><dl>
+          <div><dt class="label">The challenge</dt><dd>Build a tool that converts mismatched cfDNA study files and metadata into one common format.</dd></div>
+          <div><dt class="label">How to score it</dt><dd>Mapping accuracy against hand-curated records from unseen studies.</dd></div>
+          <div><dt class="label">Data route</dt><dd>FinaleDB, Cell-free Epigenome Atlas, BloodPAC metadata</dd></div>
+        <div><dt class="label">Assay-evidence work package</dt><dd>The deck’s Fail-Forward example suggests a schema for expression, solubility, measured binding, valid negative outcomes and failed/unevaluable assays. Add provenance and validation rules to this existing harmonisation brief; it is not another challenge.</dd></div></dl></div>
+      </div></details></article>
+    </div>
+    <div class="theme" id="theme-tissue">
+      <div class="theme-head"><h3>Read more from tumour tissue</h3><p>A tumour is a mix of cancer, immune and supporting cells. How those cells are arranged can influence how the disease behaves and responds to treatment.</p></div>
+      <article class="ch" id="histology" data-ready="open">
+        <div><h4>Read cell populations from routine pathology slides</h4><span class="badge open">Public resources to explore</span><span class="label">Illustrative competition · 6 weeks</span></div><details class="brief-details"><summary>Research task, evidence and evaluation</summary><div class="brief-body">
+        <div><span class="label">Why it matters</span><p>Pathologists routinely examine tumour tissue on slides stained with H&amp;E. Spatial transcriptomics shows which genes are active at each location, revealing far more about the tumour microenvironment, but its cost has limited wider use. Predicting that information from ordinary slides could extend it to existing archives. Current models still need to become more accurate and reliable across datasets.</p><a class="read" href="https://github.com/mahmoodlab/HEST">HEST-1k dataset and benchmark</a></div>
+        <div><dl>
+          <div><dt class="label">The challenge</dt><dd>Predict gene expression and cell-type composition from H&amp;E images.</dd></div>
+          <div><dt class="label">How to score it</dt><dd>Pearson correlation on unseen spatial samples, building on HEST-Benchmark.</dd></div>
+          <div><dt class="label">Data route</dt><dd>HEST-1k, TCGA slides through Imaging Data Commons</dd></div>
+        </dl></div>
+      </div></details></article>
+      <article class="ch" id="spatial" data-ready="open">
+        <div><h4>Recover single-cell detail from spatial data</h4><span class="badge open">Public resources to explore</span><span class="label">Illustrative competition · 6 weeks</span></div><details class="brief-details"><summary>Research task, evidence and evaluation</summary><div class="brief-body">
+        <div><span class="label">Why it matters</span><p>Many spatial methods measure small spots that each contain several cells, which blends their signals. Rare but important cells, such as immune cells at a tumour's edge, can be averaged away. Recovering single-cell profiles could reveal these cells in data that has already been collected.</p><a class="read" href="https://github.com/mahmoodlab/HEST">HEST-1k dataset and benchmark</a></div>
+        <div><dl>
+          <div><dt class="label">The challenge</dt><dd>Recover cell-level expression from multi-cell spots, working from high-resolution samples binned down to coarse spots.</dd></div>
+          <div><dt class="label">How to score it</dt><dd>Similarity to the original high-resolution profiles, which teams do not see.</dd></div>
+          <div><dt class="label">Data route</dt><dd>Xenium and Visium HD samples in HEST-1k</dd></div>
+        </dl></div>
+      </div></details></article>
+    </div>
+    <div class="theme" id="theme-predict">
+      <div class="theme-head"><h3>Predict risk and treatment response</h3><p>Better predictions could help focus prevention on the people most at risk, and treatment on the people most likely to benefit.</p></div>
+      <article class="ch" id="proteomic" data-ready="partner">
+        <div><h4>Predict cancer risk from blood proteins</h4><span class="badge partner">Data partner or approval needed</span><span class="label">Illustrative competition · 12 weeks</span></div><details class="brief-details"><summary>Research task, evidence and evaluation</summary><div class="brief-body">
+        <div><span class="label">Why it matters</span><p>Blood proteins can change long before diagnosis. A UK Biobank study of 44,645 people found 618 links between proteins and cancers, including 107 for cancers diagnosed more than seven years after the blood sample. Oxford researchers also found proteins linked to prostate cancer risk more than 15 years ahead. These findings are not yet a usable screening test.</p><a class="read" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11096312/">Proteomic risk factors, Nature Communications 2024</a></div>
+        <div><dl>
+          <div><dt class="label">The challenge</dt><dd>Build a risk model from plasma proteins, adding genetic and clinical data where permitted.</dd></div>
+          <div><dt class="label">How to score it</dt><dd>Discrimination and calibration on an independent cohort.</dd></div>
+          <div><dt class="label">Data route</dt><dd>UK Biobank Pharma Proteomics Project, for approved researchers</dd></div>
+        </dl></div>
+      </div></details></article>
+      <article class="ch" id="immuno" data-ready="open">
+        <div><h4>Predict who will benefit from immunotherapy</h4><span class="badge open">Public resources to explore</span><span class="label">Illustrative competition · 8 weeks</span></div><details class="brief-details"><summary>Research task, evidence and evaluation</summary><div class="brief-body">
+        <div><span class="label">Why it matters</span><p>Checkpoint inhibitors help the immune system attack cancer and can produce lasting responses, but only for some patients. One upper-bound estimate for the US in 2018 suggested that about 44% of people with cancer were eligible and about 12.5% would respond. Biomarkers such as PD-L1 and tumour mutational burden are imperfect guides. Better prediction could spare others side effects and lost time.</p><a class="read" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6503493">Haslam and Prasad, JAMA Network Open 2019</a></div>
+        <div><dl>
+          <div><dt class="label">The challenge</dt><dd>Combine biomarkers from public trial cohorts to predict checkpoint inhibitor response.</dd></div>
+          <div><dt class="label">How to score it</dt><dd>Performance on a cohort left out entirely, testing whether a model generalises.</dd></div>
+          <div><dt class="label">Data route</dt><dd>TIGER, CRI iAtlas, TIDE</dd></div>
+        </dl></div>
+      </div></details></article>
+    </div>
+    <div class="theme" id="theme-drugs">
+      <div class="theme-head"><h3>Design better medicines</h3><p>Many cancer drugs work by binding to a specific protein. Better predictions could help researchers decide which compounds to make and test.</p></div>
+      <article class="ch" id="binding" data-ready="mixed"><div><h4>From predicted binding to immune function</h4><span class="badge mixed">Public and restricted resources</span><span class="label">Expanded existing brief · scope to agree</span></div><details class="brief-details"><summary>Research task, evidence and evaluation</summary><div class="brief-body"><div><span class="label">The clinical research task</span><p>Help a tumour-immunology team decide which designed binders merit experimental capacity. Retain pose and affinity prediction as a methods baseline, then test how model rankings relate to measured binding and a separately defined cell-function endpoint.</p><p>From the supplied opening deck: Binder-Sieve, Synapse-Switch and Trust-Curve fit as triage, binding-to-function and calibration work packages in this one brief. The research owner would choose a tractable question rather than promise all three in one weekend.</p><a class="read" href="precedents.html#deck-mapping">Deck mapping and existing competitions →</a></div><div><dl><div><dt class="label">Proposed output</dt><dd>A reproducible ranking and calibration workflow, explicit controls, and a scoped experimental comparison. A short hackathon could produce a protocol and working analysis.</dd></div><div><dt class="label">Evaluation to agree</dt><dd>Matched controls, measured hit rate and calibration against a baseline; assess immune function separately from binding. Distinguish expression or assay failure from a valid negative.</dd></div><div><dt class="label">Data and partner route</dt><dd>Existing public structure/affinity data for prototyping; partner-generated binding and functional evidence only after access, assay capacity and responsibilities are agreed.</dd></div></dl></div></div></details></article>
+    </div>
+    <div class="theme" id="theme-validation"><div class="theme-head"><h3>Build evidence that AI methods can learn from</h3><p>Two proposed cancer-focused adaptations of the Assay-A-Thon prompts. They need clinical or experimental owners, facilities and a measurable reference. These resources are not currently available through this programme.</p></div>
+      <article class="ch" id="assay-prototypes" data-ready="partner"><div><h4>Reproducible tumour–immune assay prototypes</h4><span class="badge partner">Data partner or approval needed</span><span class="label">New scoping concept · short hackathon possible</span></div><details class="brief-details"><summary>Research task, evidence and evaluation</summary><div class="brief-body"><div><span class="label">The clinical research task</span><p>With a cancer-immunology team, choose one measurement bottleneck in a tumour–immune assay: reproducible cell geometry, controlled transfer between compartments or a countable imaging readout. Build a device concept or analysis-enabled prototype around that one need.</p><p>The opening deck’s confinement, transfer and flow-capture examples are options inside this hardware brief, not three additional competitions. A design or simulation is a legitimate early output; it must not be reported as demonstrated biological performance.</p><a class="read" href="precedents.html#deck-mapping">Source prompts and overlap decisions →</a></div><div><dl><div><dt class="label">Possible output</dt><dd>CAD/design files or a prototype, a materials and cost estimate, an operating specification and a reference-test plan.</dd></div><div><dt class="label">Proposed assessment</dt><dd>Expert review initially; then reproducibility, sample recovery, readout quality or throughput against an agreed existing method if bench capacity is approved.</dd></div><div><dt class="label">Partner needs</dt><dd>An assay owner, appropriate facilities, compatible materials and approved test samples or safe surrogate material. No on-site fabrication or wet-lab access is promised.</dd></div></dl></div></div></details></article>
+      <article class="ch" id="functional-omics" data-ready="partner"><div><h4>Link immune-cell profiles to measured function</h4><span class="badge partner">Data partner or approval needed</span><span class="label">New scoping concept · experimental follow-up needed</span></div><details class="brief-details"><summary>Research task, evidence and evaluation</summary><div class="brief-body"><div><span class="label">The clinical research task</span><p>Choose one paired measurement in a defined cancer model: a functional response and its linked molecular state. For example, ask which profile helps prioritise an immune-cell population for a specified tumour-response experiment.</p><p>The deck’s Morpho-Seq, Perturb-Kill-Seq, Syn-Secretome and Spatial-Stim-Seq are alternative work packages. They respectively connect morphology, killing, secretion or local tissue response to molecular measurements. Pick one endpoint with an owner; do not combine incompatible readouts into a single score.</p><a class="read" href="precedents.html#deck-mapping">Deck examples and programme adaptation →</a></div><div><dl><div><dt class="label">Possible output</dt><dd>A paired-data specification, a reproducible analysis or assay concept, a baseline and an uncertainty/failure report.</dd></div><div><dt class="label">Proposed assessment</dt><dd>Use paired functional reference evidence, assess sample/batch separation and compare with a baseline under an agreed budget. Molecular similarity alone does not establish function.</dd></div><div><dt class="label">Partner needs</dt><dd>A disease-model owner, compatible functional and molecular measurements, permission to use them, and any sample, sequencing and compute support agreed in advance.</dd></div></dl></div></div></details></article>
+    </div>
+  </div>
+</section>
+</main>
+<section class="cta"><div class="wrap"><h2>Bring a clinical question.<br>Shape a research challenge.</h2><div class="actions"><a class="btn yellow" href="propose.html#join">Propose a research challenge</a><a class="btn ghost" href="programme.html#how">How it could work</a></div></div></section>
+<footer><div class="wrap"><div class="foot-logos"><img src="assets/brand/oxford-cancer.png" alt="Oxford Cancer and University of Oxford" width="121" height="64"><img src="assets/brand/cruk.svg" alt="Cancer Research UK" width="104" height="42"></div><div class="footer-links"><a href="programme.html#faq">Participation, IP & credit</a><a href="resources.html#data-protection">Data protection</a><a href="precedents.html">Sources & overlap review</a><a href="programme.html#review">Draft status & approvals</a></div><p>PI discussion draft for the CRUK Research Data Community and Oxford cancer research community. Challenges, owners, data access, samples, compute, partners and funding are unconfirmed. Branding does not imply endorsement.</p><p>Hosted on GitHub Pages for review; publicly reachable, not a confidential submission channel. Public launch remains conditional on organisational permissions, data governance and working submission/privacy arrangements. <a href="programme.html#review">Review conditions</a>. This site does not offer medical advice.</p></div></footer>
+</body></html>
